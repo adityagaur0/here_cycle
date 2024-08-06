@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Watson Chat Integration'),
+          title: const Text('Watson Chat Integration.'),
         ),
         body: const Center(
           child: Text('Integrating Watson Assistant'),
