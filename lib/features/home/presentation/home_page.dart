@@ -24,24 +24,21 @@ class HomePage extends StatelessWidget {
             // First page with pink background
             Container(
               color: const Color.fromRGBO(255, 201, 215, 1),
-              child: SingleChildScrollView(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    // Content for the first page
-                    SizedBox(
-                      height: 20.h,
-                    ),
-                    const NavBarWidgets(),
-                    SizedBox(
-                      height: 20.h,
-                    ),
-                    const home_page_wgt(), // Content widget for the first page
-                    SizedBox(
-                      height: 40.h,
-                    ),
-                  ],
-                ),
+              child: Column(
+                children: [
+                  // Content for the first page
+                  SizedBox(
+                    height: 20.h,
+                  ),
+                  const NavBarWidgets(),
+                  SizedBox(
+                    height: 80.h,
+                  ),
+                  const home_page_wgt(), // Content widget for the first page
+                  SizedBox(
+                    height: 40.h,
+                  ),
+                ],
               ),
             ),
             // Second page with white background
